@@ -1,0 +1,40 @@
+.search-form {
+  margin: 20px;
+  display: flex;
+  gap: 10px;
+}
+
+.search-form input {
+  padding: 10px;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+}
+
+.search-form button {
+  padding: 10px 20px;
+  background-color: #ff5a5f;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.listing-container {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.listing {
+  flex: 1 0 30%;
+  margin: 10px;
+  border: 1px solid #ddd;
+  padding: 15px;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.no-results {
+  color: #ff5a5f; /* 에어비앤비의 브랜드 색상 */
+  font-size: 1.5em;
+  margin: 20px 0;
+}
